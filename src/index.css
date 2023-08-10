@@ -1,0 +1,15 @@
+@tailwind base;
+
+@tailwind components;
+ .show{
+  @apply text-textcolor2
+ }
+@tailwind utilities;
+@layer base{
+  h1{
+    @apply font-bold;
+  }
+  h2{
+    @apply text-textcolor
+  }
+}
