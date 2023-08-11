@@ -6,7 +6,12 @@ export function LogoOutline() {
   )
 }
 
-
+// LaBars
+export function LaBars(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32" {...props}><path fill="currentColor" d="M4 7v2h24V7zm0 8v2h24v-2zm0 8v2h24v-2z"></path></svg>
+  )
+}
 
 // 月亮
 export function MaterialSymbolsModeNightOutline(props: SVGProps<SVGSVGElement>) {

@@ -27,7 +27,7 @@ export default {
       }
     },
     animation:{
-       SlidingEnter:'SlidingEnter 1s ease-in-out '
+       SlidingEnter:'SlidingEnter 1s both 1'
     },
     colors:{
       "backcolor":"black",
