@@ -8,7 +8,6 @@ return <div className='dark:text-backcolor2 relative flex justify-between items-
 <div className='flex-1 flex justify-center '>
 <h1 >你好啊</h1>
 </div>
-
    <nav className='hidden w-64 justify-around  md:flex'>
    <Link className='hover:-translate-y-0.5 hover:shadow-textcolor dark:hover:shadow-backcolor2' to={'/test'}>Test</Link>
    <Link className='hover:-translate-y-0.5 hover:shadow-textcolor dark:hover:shadow-backcolor2' to={'/test'}>Test</Link>

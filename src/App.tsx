@@ -8,7 +8,9 @@ function App() {
   return (
     <div  className=' absolute dark:bg-backcolor w-full h-full'>
       <Nav ></Nav>
-      <Outlet/>
+       <div className='p-4 flex justify-center data-[]:'>
+       <Outlet />
+       </div>
     </div>
   )
 }
