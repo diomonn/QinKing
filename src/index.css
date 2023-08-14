@@ -1,9 +1,12 @@
 @tailwind base;
-
+@layer base {
+  p{
+    @apply my-4 text-xl font-serif
+  }
+  
+}
 @tailwind components;
- .show{
-  @apply text-textcolor2
- }
+
  
 @tailwind utilities;
 @keyframes slide-enter {
@@ -19,19 +22,6 @@
 }
 .slide-enter-content {
   counter-reset: enter-count;
-}
-
-.slide-enter-content > p {
-  --stagger: 0;
-  --delay: 150ms;
-  --start: 0ms;
-  animation: slide-enter 1s both 1;
-  animation-delay: calc(var(--start) + var(--stagger) * var(--delay));
-}
-
-.slide-enter-content > p {
-  counter-increment: enter-count;
-  --stagger: counter(enter-count);
 }
 .slide-enter-content > * {
   --stagger: 0;
@@ -68,4 +58,9 @@
   
   transition: .3s ;
 
+}
+
+.transition-colors {
+  transition-property: all;
+  transition-duration: 500ms; /* Adjust the duration as needed */
 }

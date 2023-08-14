@@ -29,13 +29,7 @@ export default {
     animation:{
        SlidingEnter:'SlidingEnter 1s both 1'
     },
-    colors:{
-      "backcolor":"black",
-      "textcolor":"#1111",
-      "backcolor2":"#e6e6e6",
-      "textcolor2":"#2a2a2a",
-      "darkcolor":"#cccc"
-    },
+   
     fontFamily:{
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
