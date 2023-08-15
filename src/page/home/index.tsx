@@ -13,13 +13,13 @@ const Journal:JournalType[]=[{
    title:'一111111',
    time:'2023-8-11',
    ReadTimes:5,
-   littertitle:'逆袭'
+  
 }, {
   path: 'journal',
   title:'一',
   time:'2023-8-11',
   ReadTimes:5,
-  littertitle:'逆袭'
+ 
 }]
 
 export default function FUN(){
